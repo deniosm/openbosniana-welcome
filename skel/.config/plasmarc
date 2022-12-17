@@ -1,0 +1,11 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=Denios-Default-Dark
+
+[Wallpapers]
+usersWallpapers=/usr/share/backgrounds/default.jpg
