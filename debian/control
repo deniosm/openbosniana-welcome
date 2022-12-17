@@ -1,0 +1,99 @@
+Source: denios-core
+Section: denios
+Priority: optional
+Maintainer: Denis Maslo <denios-linux@proton.me>
+Uploaders: Denis Maslo <denios-linux@proton.me>
+Standards-Version: 4.2.0
+Build-Depends: debhelper (>= 11), dconf-cli
+Homepage: https://www.github.com/deniosm/denios-core
+
+Package: denios-core
+Architecture: any
+Depends: bash-completion,
+         dnsutils,
+         htop,
+         nload,
+         moreutils,
+         nano,
+         net-tools,
+         whois,
+         curl,
+         wget,
+         dconf-cli,
+         rsync,
+Recommends: apparmor,
+            apparmor-profiles,
+            apparmor-profiles-extra,
+            apparmor-utils,
+            parrot-hardened,
+            screen,
+            sysv-rc,
+            locate,
+            neovim,
+            figlet,
+            plymouth,
+            plymouth-themes,
+Suggests: denios-drivers, denios-core-lite [amd64]
+Replaces: bash, base-files, xterm, denios-skel, dnsmasq, denios-interface-common, apt-denios
+Breaks: apt-denios, denios-skel
+Conflicts: apt-denios, denios-skel
+Description: Core package for Denios Gnu/Linux
+ Core package for the Denios Debian distribution.
+
+Package: denios-core-lite
+Architecture: all
+Depends: parrot-core
+Description: Lightweight MATE settings 
+  Lightweight core package for the Denios Debian distribution.
+
+Package: denios-drivers
+Architecture: all
+Depends: firmware-linux-free, firmware-linux
+Recommends: alsa-firmware-loaders,
+            alsa-firmware-loaders, 
+            b43-fwcutter, 
+            bluez-firmware, 
+            bcmwl-kernel-sources, 
+            broadcom-sta-dkms, 
+            btrfs-tools, 
+            dosfstools, 
+            e2fsprogs, 
+            exfat-fuse, 
+            exfat-utils, 
+            firmware-adi, 
+            firmware-atheros, 
+            firmware-b43-installer, 
+            firmware-b43legacy-installer, 
+            firmware-b43-lpphy-installer, 
+            firmware-bnx2, firmware-bnx2x, 
+            firmware-brcm80211, 
+            firmware-intelwimax, 
+            firmware-iwlwifi, 
+            firmware-libertas, 
+            firmware-linux-nonfree, 
+            firmware-misc-nonfree, 
+            firmware-myricom, 
+            firmware-netxen, 
+            firmware-nexten, 
+            firmware-qlogic, 
+            firmware-ralink, 
+            firmware-realtek, 
+            firmware-ti-connectivity, 
+            gobi-loader, 
+            hfsprogs, 
+            hfsutils, 
+            jfsutils, 
+            libertas-firmware, 
+            linux-wlan-ng-firmware, 
+            mtools, 
+            prism2-usb-firmware-installer, 
+            reiser4progs, 
+            reiserfsprogs, 
+            wmaloader, 
+            xfsdump, 
+            xfsprogs, 
+            zd1211-firmware
+Priority: optional
+Description: Denios drivers metapackage.
+ This metapackage installs all the free and non-free drivers to make Denios
+ run on as many hardware combinations as possible.
