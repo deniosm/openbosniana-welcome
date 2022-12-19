@@ -15,7 +15,7 @@ preferred-monitor=0
 minimize-shift=true
 
 [org/gnome/gnome-panel/layout]
-object-id-list=['browser', 'terminal', 'geany']
+object-id-list=['browser', 'terminal', 'pluma']
 
 [org/gnome/gnome-panel/layout/objects/browser]
 object-iid='PanelInternalFactory::Launcher'
@@ -54,7 +54,7 @@ remove-old-temp-files=true
 remove-old-trash-files=true
 
 [org/gnome/desktop/interface]
-icon-theme='Maia'
+icon-theme='Denios-dark'
 gtk-theme='Denios-Default-Dark'
 
 [org/gnome/desktop/sound]
@@ -199,10 +199,10 @@ col-12-width=40
 col-13-width=0
 
 [org/mate/desktop/interface]
-gtk-decoration-layout='close,maximize,minimize:menu'
+gtk-decoration-layout='menu:minimize,maximize,close'
 gtk-color-scheme='fg_color:#EEEEEE\nbg_color:#2d2d2d\ntext_color:#BBBBBB\nbase_color:#292929\nselected_fg_color:#f9f9f9\nselected_bg_color:#5179a6\ntooltip_fg_color:#dedede\ntooltip_bg_color:#2d2d2d'
 menubar-detachable=true
-icon-theme='Maia'
+icon-theme='Denios-dark'
 gtk-theme='Denios-Default-Dark'
 
 [org/mate/desktop/keybindings/custom5]
@@ -221,6 +221,7 @@ binding='<Mod4>b'
 name='browser'
 
 [org/mate/desktop/keybindings/custom3]
+action='pluma'
 binding='<Mod4>g'
 name='pluma'
 #################################################################
@@ -239,7 +240,6 @@ autorun-never=true
 automount-open=false
 automount=false
 autorun-never=true
-
 
 [org/mate/desktop/peripherals/touchpad]
 scroll-method=2
@@ -270,7 +270,7 @@ numlock-state='on'
 [org/mate/desktop/peripherals/mouse]
 cursor-size=18
 middle-button-enabled=true
-cursor-theme='default'
+cursor-theme='Denios'
 
 [org/mate/desktop/file-sharing]
 bluetooth-notify=true
@@ -452,3 +452,4 @@ locked=true
 toplevel-id='bottom'
 position=40
 object-type='applet'
+

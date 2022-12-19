@@ -1,6 +1,47 @@
-denios-core (1.0.7) testing; urgency=medium
+denios-core (1.0.9) denios-updates; urgency=medium
+
+  * Add new to denios-skel
+    + 18 object-id-list=['browser', 'terminal', 'pluma']
+    + 24 toplevel-id='bottom-panel-0'
+    + 33 toplevel-id='bottom-panel-0'
+    + 38 [org/gnome/gnome-panel/layout/objects/pluma]
+    + 42 toplevel-id='bottom-panel-0'
+    + 44 [org/gnome/gnome-panel/layout/objects/pluma/instance-config]
+    + 45 location='/usr/share/applications/pluma.desktop'
+    + 57 icon-theme='Maia'
+    + 58 gtk-theme='Denios-Default-Dark'
+    + 64 button-layout='appmenu:minimize,maximize,close'
+    + 66 theme='Denios-Default-Dark'
+    + 92 title='Denios Terminal'
+    + 202 gtk-decoration-layout='menu:minimize,maximize,close'
+    + 205 icon-theme='Maia'
+    + 206 gtk-theme='Denios-Default-Dark'
+    + 224 action='pluma'
+    + 226 name='pluma'
+    + 269 numlock-state='on'
+    + 310 picture-options='Stretch'
+    + 311 picture-filename='/usr/share/backgrounds/grid-denios.jpg'
+    + 315 highlight-current-line=false
+    + 333 theme='Denios-Default-Dark'
+    + 334 num-workspaces=1
+    + 357 computer-icon-name='Denios-PC'
+    + 370 object-id-list=[ 'notification-area', 'clock', 'window-list', 'object_1', 'object_2', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+    + 371 toplevel-id-list=['bottom']
+    + 378 size=32
+    + 396 toplevel-id='bottom'
+    + 415 toplevel-id='bottom'
+    + 424 toplevel-id='bottom'
+    + 431 toplevel-id='bottom'
+    + 438 toplevel-id='bottom'
+  * Remove 
+    + 445 *
+    + 464 *
+
+ -- Denis Maslo <denios-linux@proton.me>  Sat, 17 Dec 2022 07:55:59 +0100
+ 
+denios-core (1.0.8) testing; urgency=medium
 
   * Initial Release.
   * Initial Version.
 
- -- Denis Maslo <denios-linux@proton.me>  Sat, 17 Dec 2022 06:14:45 +0100
+ -- Denis Maslo <denios-linux@proton.me>  Sat, 17 Dec 2022 06:54:45 +0100

@@ -25,7 +25,6 @@ Recommends: apparmor,
             apparmor-profiles,
             apparmor-profiles-extra,
             apparmor-utils,
-            parrot-hardened,
             screen,
             sysv-rc,
             locate,
@@ -42,7 +41,7 @@ Description: Core package for Denios Gnu/Linux
 
 Package: denios-core-lite
 Architecture: all
-Depends: parrot-core
+Depends: denios-core
 Description: Lightweight MATE settings 
   Lightweight core package for the Denios Debian distribution.
 
