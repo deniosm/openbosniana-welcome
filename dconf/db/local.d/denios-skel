@@ -54,7 +54,7 @@ remove-old-temp-files=true
 remove-old-trash-files=true
 
 [org/gnome/desktop/interface]
-icon-theme='Denios-dark'
+icon-theme='Denios-blue-dark'
 gtk-theme='Denios-Default-Dark'
 
 [org/gnome/desktop/sound]
@@ -202,7 +202,7 @@ col-13-width=0
 gtk-decoration-layout='menu:minimize,maximize,close'
 gtk-color-scheme='fg_color:#EEEEEE\nbg_color:#2d2d2d\ntext_color:#BBBBBB\nbase_color:#292929\nselected_fg_color:#f9f9f9\nselected_bg_color:#5179a6\ntooltip_fg_color:#dedede\ntooltip_bg_color:#2d2d2d'
 menubar-detachable=true
-icon-theme='Denios-dark'
+icon-theme='Denios-blue-dark'
 gtk-theme='Denios-Default-Dark'
 
 [org/mate/desktop/keybindings/custom5]
@@ -408,14 +408,6 @@ toplevel-id='bottom'
 position=0
 object-type='applet'
 panel-right-stick=false
-
-[org/mate/panel/objects/object_2]
-applet-iid='MultiLoadAppletFactory::MultiLoadApplet'
-toplevel-id='bottom'
-position=800
-object-type='applet'
-panel-right-stick=false
-
 
 [org/mate/panel/objects/notification-area]
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
