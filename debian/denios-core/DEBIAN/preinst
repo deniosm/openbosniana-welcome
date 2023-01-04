@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    install)
+    echo "# This file is empty, feel free to
+# add here your custom APT repositories
+
+" > /etc/apt/sources.list
+        ;;
+esac
