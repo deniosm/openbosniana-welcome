@@ -1,3 +1,10 @@
+denios-core (1.1.1) denios-updates; urgency=medium
+  
+  * Fix skel
+  * Update dconf
+ 
+-- Denis Maslo <denios-linux@proton.me>  Wed, 18 Jan 2023 12:03:50 +0100
+
 denios-core (1.1.0) denios-updates; urgency=medium
   
   * Fix gtk2.0

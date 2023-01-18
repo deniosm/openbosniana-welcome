@@ -1,6 +1,6 @@
 Package: denios-drivers
 Source: denios-core
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Maintainer: Denis Maslo <denios-linux@proton.me>
 Installed-Size: 42

@@ -45,10 +45,6 @@ toplevel-id='bottom-panel-0'
 location='/usr/share/applications/pluma.desktop'
 
 
-[org/gnome/desktop/a11y/mouse]
-secondary-click-enabled=false
-dwell-click-enabled=false
-
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
 remove-old-trash-files=true
@@ -89,8 +85,8 @@ sort-directories-first=true
 foreground-color='#0000FFFF0000'
 visible-name='Default'
 palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
-title='Denios Terminal'
-background-darkness=0.90784313725490196
+title='D3NIOS Terminal'
+background-darkness=0.85784313725490196
 use-theme-colors=false
 scrollbar-position='right'
 background-type='transparent'
@@ -307,7 +303,7 @@ slowkeys-enable=false
 color-shading-type='solid'
 primary-color='#2c2c00001e1e'
 picture-options='Stretch'
-picture-filename='/usr/share/backgrounds/grid-denios.jpg'
+picture-filename='/usr/share/backgrounds/background.jpg'
 secondary-color='#2c2c00001e1e'
 
 [org/mate/pluma]
@@ -360,13 +356,8 @@ network-icon-visible=false
 trash-icon-visible=true
 volumes-visible=true
 
-[org/mate/atril/default]
-show-sidebar=true
-dual-page=false
-inverted-colors=false
-
 [org/mate/panel/general]
-object-id-list=[ 'notification-area', 'clock', 'window-list', 'object_1', 'object_2', 'object_7', 'object_8', 'object_9', 'object_11', 'object_4', 'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16', 'object_3']
+object-id-list=[ 'notification-area', 'clock', 'window-list', 'object_1', 'object_2','object_3','object_4', 'object_7', 'object_8', 'object_9', 'object_11',  'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16' ]
 toplevel-id-list=['bottom']
 
 [org/mate/panel/toplevels/bottom]
@@ -401,13 +392,6 @@ panel-right-stick=true
 format='24-hour'
 custom-format=''
 
-[org/mate/panel/objects/object_1]
-locked=true
-applet-iid='BriskMenuFactory::BriskMenu'
-toplevel-id='bottom'
-position=0
-object-type='applet'
-panel-right-stick=false
 
 [org/mate/panel/objects/notification-area]
 applet-iid='NotificationAreaAppletFactory::NotificationArea'

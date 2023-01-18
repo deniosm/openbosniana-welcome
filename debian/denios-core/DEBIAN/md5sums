@@ -1,7 +1,7 @@
-e299417c2e55d1423c87542d1d32c1d3  root/.bashrc
+93a9429186bbe41e884f76502b637b47  root/.bashrc
 c3243ace3ee6b362e705eb2bb7883ab9  usr/bin/denios-upgrade
 605b34bed9f22f44f9b549443b082889  usr/bin/sihup
-24dde055033007801d4796607c9b6e89  usr/lib/denios-skel/etc/dconf/db/local.d/denios-skel
+d3add47ee3acdbff18f5acd942fc9c6f  usr/lib/denios-skel/etc/dconf/db/local.d/denios-skel
 97dcc50b19bac02571504c30f72deb37  usr/lib/denios-skel/etc/skel/.BurpSuite/UserConfigCommunity.json
 8dff115e19987ac8b9cd1f75c00826f0  usr/lib/denios-skel/etc/skel/.config/KDE/Sonnet.conf
 a1b62898f461ce34be3df4f83b628dc1  usr/lib/denios-skel/etc/skel/.config/Trolltech.conf
@@ -14,7 +14,7 @@ a1b62898f461ce34be3df4f83b628dc1  usr/lib/denios-skel/etc/skel/.config/Trolltech
 54aab1dc6faca9dba2f25173cf49d6a1  usr/lib/denios-skel/etc/skel/.config/breezerc
 002554699532ae110d5ed638ff29e182  usr/lib/denios-skel/etc/skel/.config/caja/desktop-metadata
 7b14702cd318b216dbe7eca6f63a155a  usr/lib/denios-skel/etc/skel/.config/clipit/clipitrc
-310edd1c32a795bfcd65ed88c1a36a5e  usr/lib/denios-skel/etc/skel/.config/dconf/user
+45022a56569da90d9865db2dbf897b69  usr/lib/denios-skel/etc/skel/.config/dconf/user
 195b040e8811f48521cb01361552a85c  usr/lib/denios-skel/etc/skel/.config/fish/config.fish
 1d8b72b88991cb016984229f2da2717d  usr/lib/denios-skel/etc/skel/.config/geany/geany.conf
 5a9f2025a76254ce73c57c2bae8dca65  usr/lib/denios-skel/etc/skel/.config/gtk-2.0/gtkfilechooser.ini
@@ -43,7 +43,6 @@ fbc5d3d07564eabc9d51932b5072e27b  usr/lib/denios-skel/etc/skel/.config/ksplashrc
 5b30d646cd1412fd01e342cd9704b739  usr/lib/denios-skel/etc/skel/.config/mimeapps.list
 4343900f1008c031ee9ececaf9b74539  usr/lib/denios-skel/etc/skel/.config/nano/nanorc
 31bb8fb5cc558ba544a9209b3efe78a4  usr/lib/denios-skel/etc/skel/.config/nvim/init.vim
-e906e2444c8a0517c576fbbdac10c0d3  usr/lib/denios-skel/etc/skel/.config/os
 5cf31ba5883befe4c5f7dc5bf30d76f2  usr/lib/denios-skel/etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 781b0747dca2d3afc0482b37eef92387  usr/lib/denios-skel/etc/skel/.config/plasmarc
 d64b906ea7a93e68cea8dfe75a5df9b0  usr/lib/denios-skel/etc/skel/.config/plasmashellrc
@@ -55,9 +54,9 @@ fb6d755b62d08b09288280efabaae528  usr/lib/denios-skel/etc/skel/.config/polybar/l
 12b69550cbc762d46e09aa6714069960  usr/lib/denios-skel/etc/skel/.config/startupconfig
 95d8c4493073a589d39a2ebe683f689d  usr/lib/denios-skel/etc/skel/.config/touchpadrc
 04cbaf58a7403caac4c91f22864b821d  usr/lib/denios-skel/etc/skel/.config/xfce4/help.rc
-3200e6451d55329eb35cc8b1d7155530  usr/lib/denios-skel/etc/skel/.config/xfce4/helpers.rc
+5be684b6b9f5d48396b825f270e8a14e  usr/lib/denios-skel/etc/skel/.config/xfce4/helpers.rc
 d9624e1a08b669666b91996464ca127b  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-10/16321537241.desktop
-3d271d21d1668effc54180be1107c5e4  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-10/16321537242.desktop
+ca1c5e285a553e2088ddea1391a9a16a  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-10/16321537242.desktop
 7100e6341fe835b574f87b2b33791331  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-10/16321537243.desktop
 ff0876b831696acb124fe43e1cd1dc73  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-10/16321537244.desktop
 9d12b2475f15998e3f6ce2e0ebf0b76f  usr/lib/denios-skel/etc/skel/.config/xfce4/panel/launcher-11/16321537245.desktop
@@ -77,7 +76,7 @@ c2b33545a8931d692c248d576c882402  usr/lib/denios-skel/etc/skel/.config/xfce4/xfc
 74d02ca5a83e10ae47f30b16053fee94  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 889ebcc8cab6e363d2bbc71ec85a0547  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-screensaver.xml
 bf89a9510c58181b814bb86308ec9c5d  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
-c811cd12c9e99d78f2b4efae931f7274  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+b39707085923271e3ae3b321f01d56a0  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 33e352d2ecb557ccc0cb51da2a074e27  usr/lib/denios-skel/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 44ea90c16801f448ad190d57e2072f5e  usr/lib/denios-skel/etc/skel/.dbeaver4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs
 bea66b218dfc5dde76663f9b2bf3f6a4  usr/lib/denios-skel/etc/skel/.emacs
@@ -94,13 +93,15 @@ ad3ed82adc67e7fe6095f2145725f1b4  usr/lib/denios-skel/etc/skel/.local/share/appl
 ea9fa92e04acfb1396351f5319357f06  usr/lib/denios-skel/etc/skel/.local/share/konsole/Profile 2.profile
 75750892238247b437058e194b3a812c  usr/lib/denios-skel/etc/skel/.local/share/konsole/Profile 3.profile
 0e3e6e5eb0e18b2eb8189397aaf56edb  usr/lib/denios-skel/etc/skel/.local/share/krunnerstaterc
+52abbb9c4b1a333853229ee3084ea132  usr/lib/denios-skel/etc/skel/.local/share/plasma_icons/codium.desktop
 f931818879be04bf0b1df66e18e33164  usr/lib/denios-skel/etc/skel/.local/share/plasma_icons/firefox.desktop
+011e1e941fad38d9a5d4c7432508bf4e  usr/lib/denios-skel/etc/skel/.local/share/plasma_icons/org.kde.dolphin.desktop
 7f1ac1a4981b6b4aca93b377ddaba102  usr/lib/denios-skel/etc/skel/.local/share/plasma_icons/org.kde.konsole.desktop
 ac0b45e4d5023be1c67e08913fa06e4c  usr/lib/denios-skel/etc/skel/.local/share/plasma_icons/org.kde.kwrite.desktop
 21c47529bf5a8da208fb2baa465656e8  usr/lib/denios-skel/etc/skel/.msf4/config
 ecb6d3479ac3823f1da7f314d871989b  usr/lib/denios-skel/etc/skel/.profile
 223afb31a6f392e3adaae5ccb39f4704  usr/lib/denios-skel/etc/skel/.vimrc
-bff21f91af8018bb9368f9e93d580587  usr/lib/denios-skel/etc/skel/.zshrc
+b671a0dfe8d14df956c88f96253c86bd  usr/lib/denios-skel/etc/skel/.zshrc
 c5abe18912e60713eba677cfbf968016  usr/lib/denios-skel/etc/skel/Templates/prog/ObjC.m
 6434209e8d297fd7954748d5e7aa9a05  usr/lib/denios-skel/etc/skel/Templates/prog/assembly.asm
 5ad20d22e88d2d9938943d63f906444a  usr/lib/denios-skel/etc/skel/Templates/prog/bash-sh.sh
@@ -129,5 +130,5 @@ d41d8cd98f00b204e9800998ecf8427e  usr/lib/denios-skel/etc/skel/Templates/web/jav
 320918455bc00b2a361c49e66fa66410  usr/lib/denios-skel/etc/skel/Templates/web/php.php
 2c9d749f4869a602719b18b3a10be3ca  usr/lib/denios-skel/etc/skel/Templates/web/xml.xml
 dd765e9aa38d0d36eb78c992ec716b6b  usr/local/bin/apt
-e5bacdf12b1866e5e42137d3a9a5e823  usr/share/doc/denios-core/changelog.gz
+d969243c207a81b2941f2b7f1e804350  usr/share/doc/denios-core/changelog.gz
 d32239bcb673463ab874e80d47fae504  usr/share/doc/denios-core/copyright

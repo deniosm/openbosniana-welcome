@@ -1,8 +1,8 @@
 Package: denios-core
-Version: 1.1.0
+Version: 1.1.1
 Architecture: amd64
 Maintainer: Denis Maslo <denios-linux@proton.me>
-Installed-Size: 3186
+Installed-Size: 489
 Depends: bash-completion, dnsutils, htop, nload, moreutils, nano, net-tools, whois, curl, wget, dconf-cli, rsync
 Recommends: apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, screen, sysv-rc, locate, neovim, figlet, plymouth, plymouth-themes
 Suggests: denios-drivers, denios-core-lite
