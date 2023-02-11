@@ -15,22 +15,6 @@ Pin: release a=denios-security
 Pin-Priority: 600
 
 Package: *
-Pin: release a=lts
-Pin-Priority: 600
-
-Package: *
-Pin: release a=lts-backports
-Pin-Priority: 599
-
-Package: *
-Pin: release a=lts-updates
-Pin-Priority: 600
-
-Package: *
-Pin: release a=lts-security
-Pin-Priority: 600
-
-Package: *
 Pin: release o=Parrot
 Pin-Priority: 50
 

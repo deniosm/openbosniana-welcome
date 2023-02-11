@@ -7,7 +7,7 @@ custom-theme-running-dots=true
 extend-height=false
 dock-position='BOTTOM'
 custom-theme-shrink=true
-background-opacity=0.35
+background-opacity=0.30
 height-fraction=0.90
 opaque-background=true
 dash-max-icon-size=32
@@ -15,25 +15,25 @@ preferred-monitor=0
 minimize-shift=true
 
 [org/gnome/gnome-panel/layout]
-object-id-list=['browser', 'terminal', 'pluma']
+object-id-list=['caja', 'synaptic', 'pluma', 'terminal', 'browser']
 
-[org/gnome/gnome-panel/layout/objects/browser]
+[org/gnome/gnome-panel/layout/objects/caja]
 object-iid='PanelInternalFactory::Launcher'
 pack-index=1
 pack-type='start'
 toplevel-id='bottom-panel-0'
 
-[org/gnome/gnome-panel/layout/objects/browser/instance-config]
-location='/usr/share/applications/firefox.desktop'
+[org/gnome/gnome-panel/layout/objects/terminal/instance-config]
+location='/usr/share/applications/org.gnome.caja.desktop'
 
-[org/gnome/gnome-panel/layout/objects/terminal]
+[org/gnome/gnome-panel/layout/objects/synaptic]
 object-iid='PanelInternalFactory::Launcher'
 pack-index=2
 pack-type='start'
 toplevel-id='bottom-panel-0'
 
 [org/gnome/gnome-panel/layout/objects/terminal/instance-config]
-location='/usr/share/applications/org.gnome.Terminal.desktop'
+location='/usr/share/applications/org.gnome.synaptic.desktop'
 
 [org/gnome/gnome-panel/layout/objects/pluma]
 object-iid='PanelInternalFactory::Launcher'
@@ -44,6 +44,23 @@ toplevel-id='bottom-panel-0'
 [org/gnome/gnome-panel/layout/objects/pluma/instance-config]
 location='/usr/share/applications/pluma.desktop'
 
+[org/gnome/gnome-panel/layout/objects/terminal]
+object-iid='PanelInternalFactory::Launcher'
+pack-index=4
+pack-type='start'
+toplevel-id='bottom-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/terminal/instance-config]
+location='/usr/share/applications/org.gnome.Terminal.desktop'
+
+[org/gnome/gnome-panel/layout/objects/browser]
+object-iid='PanelInternalFactory::Launcher'
+pack-index=5
+pack-type='start'
+toplevel-id='bottom-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/browser/instance-config]
+location='/usr/share/applications/firefox.desktop'
 
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
@@ -67,7 +84,7 @@ schema-version=uint32 3
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-transparency-percent=33
-use-theme-colors=false
+use-theme-colors=true
 use-transparent-background=true
 
 [org/gtk/settings/file-chooser]
@@ -85,7 +102,7 @@ sort-directories-first=true
 foreground-color='#0000FFFF0000'
 visible-name='Default'
 palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
-title='D3NIOS Terminal'
+title='D3NIOS TERMINAL'
 background-darkness=0.85784313725490196
 use-theme-colors=false
 scrollbar-position='right'
@@ -221,17 +238,12 @@ action='pluma'
 binding='<Mod4>g'
 name='pluma'
 #################################################################
-#################################################################
-# THAT'S FUCKIN'IMPORTANT FOR FORENSICS PURPOSES
-# THANK YOU LORENZO FALETRA :) 
-#################################################################
-#################################################################
 [org/mate/desktop/media-handling]
 automount-open=false
 automount=false
 autorun-x-content-start-app=['x-content/software']
 autorun-never=true
-
+#################################################################
 [org/gnome/desktop/media-handling]
 automount-open=false
 automount=false
@@ -258,7 +270,6 @@ duplicate-leds=false
 handle-indicators=false
 load-extra-items=true
 group-per-window=false
-
 
 [org/mate/desktop/peripherals/keyboard]
 numlock-state='on'
@@ -301,10 +312,10 @@ slowkeys-enable=false
 
 [org/mate/desktop/background]
 color-shading-type='solid'
-primary-color='#2c2c00001e1e'
-picture-options='Stretch'
+primary-color='#5891BC'
+picture-options='stretched'
 picture-filename='/usr/share/backgrounds/background.jpg'
-secondary-color='#2c2c00001e1e'
+secondary-color='#3C8F25'
 
 [org/mate/pluma]
 highlight-current-line=false
@@ -313,7 +324,7 @@ color-scheme='solarized-dark'
 display-line-numbers=true
 auto-indent=true
 bottom-panel-visible=false
-active-plugins=['changecase', 'sort', 'time', 'docinfo', 'taglist', 'filebrowser', 'spell', 'modelines']
+active-plugins=['docinfo', 'modelines', 'filebrowser', 'spell', 'time']
 statusbar-visible=true
 
 [org/mate/pluma/plugins/time]
@@ -357,7 +368,7 @@ trash-icon-visible=true
 volumes-visible=true
 
 [org/mate/panel/general]
-object-id-list=[ 'notification-area', 'clock', 'window-list', 'object_1', 'object_2','object_3','object_4', 'object_7', 'object_8', 'object_9', 'object_11',  'object_10', 'object_12', 'object_13', 'object_14', 'object_15', 'object_16' ]
+object-id-list=['notification-area', 'clock', 'show-desktop', 'object-2', 'object-3', 'object-1']
 toplevel-id-list=['bottom']
 
 [org/mate/panel/toplevels/bottom]
@@ -365,8 +376,8 @@ expand=true
 orientation='bottom'
 screen=0
 y-bottom=0
-size=32
-y=742
+size=28
+y=740
 
 [org/mate/panel/toplevels/bottom/background]
 opacity=31575
