@@ -1,9 +1,0 @@
-/etc/NetworkManager/conf.d/90-dns-none.conf
-/etc/X11/Xsession.d/52noautomount
-/etc/apt/apt.conf.d/99retry-on-error
-/etc/apt/preferences.d/denios-pinning
-/etc/apt/sources.list.d/denios.list
-/etc/default/grub.d/grub.default
-/etc/profile.d/denios.sh
-/etc/skel/.bashrc
-/etc/udev/rules.d/50-u2f-hyperfido.rules

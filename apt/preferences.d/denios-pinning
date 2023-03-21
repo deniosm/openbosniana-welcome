@@ -15,7 +15,7 @@ Pin: release a=denios-security
 Pin-Priority: 600
 
 Package: *
-Pin: release o=Parrot
+Pin: release o=Denios
 Pin-Priority: 50
 
 Package: *
