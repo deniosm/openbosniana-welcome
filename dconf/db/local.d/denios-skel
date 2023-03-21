@@ -398,8 +398,6 @@ bracket-matching=true
 color-scheme='solarized-dark'
 display-line-numbers=true
 highlight-current-line=false
-history-replace-with=['bottom-panel', 'Denios', 'denios', 'Description: D3nios-OS modified - ']
-history-search-for=['top-panel', 'Parrot', 'denios', 'engines', 'breeze', 'mate', 'parrot', 'libpam-kwallet5y', 'libx11']
 side-panel-active-page=-1725528267
 side-panel-size=200
 size=(1366, 701)
@@ -409,7 +407,7 @@ statusbar-visible=true
 [org/mate/pluma/plugins/filebrowser/on-load]
 root='file:///'
 tree-view=true
-virtual-root='file:///home/parrot-core/dconf/db/local.d'
+virtual-root='file:///home/denios-core/dconf/db/local.d'
 
 [org/mate/pluma/plugins/time]
 prompt-type='prompt-selected-format'
