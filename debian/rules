@@ -3,4 +3,16 @@
 %:
 	dh $@
 
-override_dh_usrlocal:
+override_dh_auto_configure:
+	# Configure the project
+	mkdir -p build
+	cd build && cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+
+override_dh_auto_build:
+	# Build the project
+	cd build && make
+
+override_dh_auto_install:
+	# Install to the staging directory
+	cd build && make DESTDIR=$(CURDIR)/debian/tmp install
+
